@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T07:09:41.164Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="92RI1BnQP0LChphd3GSj" version="12.1.7" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-28T07:24:30.578Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="iM8UnVhjVcATr3jpUZwu" version="12.1.7" type="github" pages="1">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="1039" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -64,10 +64,22 @@
         <mxCell id="78961159f06e98e8-42" value="+ split(type): type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-30" vertex="1">
           <mxGeometry y="242" width="160" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="78961159f06e98e8-121" style="edgeStyle=elbowEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endArrow=classic;endFill=0;endSize=16;fontFamily=Verdana;fontSize=12;elbow=vertical;" parent="1" source="78961159f06e98e8-17" target="78961159f06e98e8-30" edge="1">
+        <mxCell id="78961159f06e98e8-121" value="" style="edgeStyle=elbowEdgeStyle;labelBackgroundColor=none;startFill=0;startSize=8;endArrow=diamondThin;endFill=0;endSize=16;fontFamily=Verdana;fontSize=12;elbow=vertical;html=1;" parent="1" source="78961159f06e98e8-17" target="78961159f06e98e8-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="250" y="259.88235294117635" as="sourcePoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FPOi4CQBYnaU30QqspEY-7" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="83" width="160" height="86" as="geometry"/>
+        </mxCell>
+        <mxCell id="FPOi4CQBYnaU30QqspEY-8" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FPOi4CQBYnaU30QqspEY-7">
+          <mxGeometry y="26" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="FPOi4CQBYnaU30QqspEY-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="FPOi4CQBYnaU30QqspEY-7">
+          <mxGeometry y="52" width="160" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="FPOi4CQBYnaU30QqspEY-10" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FPOi4CQBYnaU30QqspEY-7">
+          <mxGeometry y="60" width="160" height="26" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
